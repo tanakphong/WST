@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="MainText">14dp</dimen>
+    <dimen name="TerminalText">35dp</dimen>
+    <dimen name="TerminalTextLine">14dp</dimen>
+    <dimen name="TextLine">14dp</dimen>
+    <dimen name="Space">3dp</dimen>
+    <dimen name="SpaceMain">3dp</dimen>
+    <dimen name="MinH">60dp</dimen>
+    <dimen name="ImgH">30dp</dimen>
+    <dimen name="SpaceRow">3dp</dimen>
+    <dimen name="SpaceButton">3dp</dimen>
+    <integer name="WidthAlert">1500</integer>
+    <integer name="DelayDismiss">2000</integer>
+    <integer name="SizeL">240</integer>
+    <integer name="TextL">16</integer>
+    <integer name="SizeM">170</integer>
+    <integer name="TextM">13</integer>
+    <integer name="SizeS">100</integer>
+    <integer name="TextS">11</integer>
+    <integer name="MaxL">25</integer>
+</resources>

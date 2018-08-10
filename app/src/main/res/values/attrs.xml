@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="button" format="reference" />
+    <attr name="colorbg" format="reference" />
+    <attr name="subbg" format="reference" />
+    <attr name="text" format="reference" />
+    <attr name="edittext" format="reference" />
+    <attr name="checkbox" format="reference" />
+
+    <!-- Menu -->
+    <attr name="mtext" format="reference" />
+
+    <!-- Terminal -->
+    <attr name="tbutton" format="reference" />
+
+    <!-- Popup -->
+    <attr name="ptextmain" format="reference" />
+    <attr name="pbg" format="reference" />
+
+    <!-- Loading -->
+    <attr name="loading" format="reference" />
+
+    <!-- BG Data -->
+    <attr name="colorbgData" format="reference" />
+    <attr name="textData" format="reference" />
+</resources>

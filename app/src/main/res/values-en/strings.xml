@@ -1,0 +1,192 @@
+<resources>
+    <string name="AppName">We Food Court</string>
+    <string name="MainText">WF Service</string>
+    <string name="ErrorMessage">Error message</string>
+    <string name="Loading">Loading...</string>
+    <string name="Popup">Popup</string>
+
+    <!-- Monitor -->
+    <string name="MAmount">Amount</string>
+    <string name="MRemain">Remain</string>
+    <string name="DisplayTestScr">Display Test</string>
+    <string name="DisplayTestCardNo">No. 1234567890</string>
+    <string name="DisplayTestCardType">General</string>
+    <string name="DisplayTestDetail">Card Detail</string>
+    <string name="DisplayTestL1a">Use</string>
+    <string name="DisplayTestL1b">99.99</string>
+    <string name="DisplayTestL2a">Remain</string>
+    <string name="DisplayTestL2b">9999.99</string>
+
+    <!-- Service -->
+    <string name="TerminalIP">Terminal IP</string>
+    <string name="Language">Language</string>
+    <string name="SIP">WF-Service IP Address</string>
+    <string name="SPort">TCP/IP Port</string>
+    <string name="SPassword">Encoding Password</string>
+    <string name="SPriceMode">Case shop use price mode is Hot Price, Menu Price do not show price lists(Customer Display)</string>
+    <string name="SIncDPMode">Balance is deducted reserve value.</string>
+    <string name="SFLoftMode">Food loft cases to show the total expenses.</string>
+
+    <!-- Main -->
+    <string name="OK">OK</string>
+    <string name="Submit">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Print">Print</string>
+    <string name="ThaiMenu">ไทย</string>
+    <string name="EngMenu">English</string>
+    <string name="ShopCard">Owner Card</string>
+    <string name="CardNo">Card No.</string>
+
+    <!-- Menu -->
+    <string name="LogOnMenu">Log On</string>
+    <string name="ServiceMenu">Service Setting</string>
+
+    <!-- Terminal -->
+    <string name="TBCancel">Sale Void</string>
+    <string name="TBPrintSlip">Print Slips</string>
+    <string name="TBPrintSum">Print Summary</string>
+    <string name="TBCheckBal">Check Balance</string>
+    <string name="TBSetUp">Terminal Setup</string>
+    <string name="TBTransfer">Card Transfer</string>
+    <string name="TBChangeShop">Change Shop</string>
+    <string name="TBPaid">Payment</string>
+    <string name="TBDelete">Delete Item</string>
+    <string name="TBClear">Clear</string>
+    <string name="TBLock">Lock Screen</string>
+    <string name="TBLogOut">Exit</string>
+
+    <string name="TPCancel">Sale Void</string>
+    <string name="TPPrintSlip">Print Slips</string>
+    <string name="TPPrintSum">Print Summary</string>
+    <string name="TPCheckBal">Check Balance</string>
+    <string name="TPSetUp">Terminal Setup</string>
+    <string name="TPTransfer">Card Transfer</string>
+    <string name="TPChangeShop">Change Shop</string>
+    <string name="TPPaid">Payment</string>
+
+    <string name="PriceTypeH">Hot Price</string>
+    <string name="PriceTypeM">Menu Price</string>
+    <string name="PriceTypeE">Manual Price</string>
+
+    <!-- Popup Message -->
+    <string name="PLogOut">Do you want to leave the system ?</string>
+    <string name="PClear">Confirm to clear the screen ?</string>
+    <string name="PDelete">Do you want to delete this ?</string>
+    <string name="PCancel">Do you want to cancel sale items ?</string>
+    <string name="PCardNo">Card No.</string>
+    <string name="PCancelAmt">Void value</string>
+    <string name="PMissingConfig">Missing service setting</string>
+    <string name="PMissingData">Please complete all required fields.</string>
+
+    <!-- Popup Payment -->
+    <string name="CardType">Card Type</string>
+    <string name="Customer">Customer Name/Member</string>
+    <string name="SubTotal">Amount before deduct promotion/discount</string>
+    <string name="PromDiscount">Discount from promotion</string>
+    <string name="Discount">Discount from discount type</string>ห
+    <string name="DueAmount">Amount to be paid</string>
+    <string name="Total">Previous Balance</string>
+    <string name="RemainAmt">Card Balance</string>
+
+    <!-- Change Shop Popup -->
+    <string name="ShopNo">Shop No.</string>
+    <string name="ShopName">Shop Name</string>
+    <string name="Shop">Shop</string>
+
+    <!-- Transfer Popup -->
+    <string name="CardNoFrom">Card No. - Source</string>
+    <string name="CardRemainAmt">Card Balance - Current</string>
+    <string name="CardNoTo">Card No. - Target</string>
+    <string name="CardRemainTrans">Card Balance - New</string>
+    <string name="AmtTransfer">Transfer Value</string>
+
+    <string name="DescTransfer">Transfer the card value at the store.</string>
+
+    <!-- Lock Screen Popup -->
+    <string name="CardNotMatch">Card No. not match</string>
+
+    <!-- Change Shop Popup -->
+    <string name="NotValidData">Please verify data</string>
+
+    <!-- Check Balance Popup -->
+    <string name="CardExp">EXP.</string>
+
+    <!-- Terminal Setup Popup -->
+    <string name="SetupTheme">Skins</string>
+    <string name="SetupShowData">Display Item Settings</string>
+    <string name="SetupShop">Price Mode Settings</string>
+    <string name="SetupMonitor">Customer Display Settings</string>
+    <string name="SetupPrinter">Printer Settings</string>
+    <string name="SetupSound">Sound Settings</string>
+
+    <!-- Verify Popup -->
+    <string name="Verify">Authentication</string>
+    <string name="NotGetVerify">Invalid Card No</string>
+
+    <!-- Sound Setup -->
+    <string name="Crystal">Crystal</string>
+    <string name="MouseClick">Mouse Click</string>
+    <string name="Bell">Bell</string>
+    <string name="Beep">Beep</string>
+    <string name="Swish">Swish</string>
+
+    <!-- Theme Setup -->
+    <string name="Default">Default</string>
+    <string name="Blue">Blue</string>
+    <string name="Red">Red</string>
+    <string name="Green">Green</string>
+    <string name="Pink">Pink</string>
+    <string name="Black">Black</string>
+
+    <!-- ShowData Setup -->
+    <string name="S">S</string>
+    <string name="M">M</string>
+    <string name="L">L</string>
+    <string name="SizeData">Size for list items</string>
+    <string name="DetailData">Details of the display case, the menu price</string>
+    <string name="ItemCode">Menu Code</string>
+    <string name="ItemDesc">Description</string>
+    <string name="ItemImage">Menu Image</string>
+
+    <!-- Printer Setup -->
+    <string name="Enable">Active</string>
+    <string name="Disable">Inactive</string>
+    <string name="TestPrint">Test Print</string>
+
+    <!-- Monitor Setup -->
+    <string name="TestMonitor">Test Monotor</string>
+
+    <!-- Order List -->
+    <string name="OPrice">Price</string>
+    <string name="ODescription">Item</string>
+
+    <!-- Line Pay -->
+    <string name="linepay_confirm">Supported by Android/iPhone LINE versions 4.8.0or higher.</string>
+    <string name="linepay_install">Get it now</string>
+    <string name="linepay_cancel">cancel</string>
+
+    <!-- Print Summary -->
+    <string name="PrintSummary">.:: SHOP SALE SUMMARY ::.</string>
+    <string name="Date">Date</string>
+    <string name="Time">Time</string>
+    <string name="TotalSale">Total sale</string>
+    <string name="TotalVoid">Total void</string>
+    <string name="NetSale">Net sale</string>
+    <string name="NumCardsAtShop">Total cards</string>
+    <string name="BillSale">Sale bill</string>
+    <string name="BillVoid">Void bill</string>
+    <string name="NetBill">Net bill</string>
+
+    <!-- Print Slip -->
+    <string name="PrintCurrentSlip">Print slips last</string>
+    <string name="PrintCardTrans">Print slips transaction</string>
+
+    <string name="MTotal">Total</string>
+    <string name="MCancelList">List Cancelled.</string>
+    <string name="MCancelTotal">Total Cancelled</string>
+    <string name="form">Form</string>
+    <string name="to">To</string>
+
+    <string name="MDeleteList">List Deleted.</string>
+    <string name="MDeleteTotal">Totel Deleted</string>
+</resources>

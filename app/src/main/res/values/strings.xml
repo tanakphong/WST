@@ -1,0 +1,193 @@
+<resources>
+    <string name="AppName">WSTv1.0</string>
+    <string name="MainText">WF Service</string>
+    <string name="ErrorMessage">รายละเอียดข้อผิดพลาด</string>
+    <string name="Loading">Loading...</string>
+    <string name="Popup">Popup</string>
+
+    <!-- Monitor -->
+    <string name="MAmount">ยอดใช้จ่าย</string>
+    <string name="MRemain">มูลค่าคงเหลือ</string>
+    <string name="DisplayTestScr">ทดสอบหน้าจอแสดงผล</string>
+    <string name="DisplayTestCardNo">รหัส 1234567890</string>
+    <string name="DisplayTestCardType">ทั่วไป</string>
+    <string name="DisplayTestDetail">รายละเอียดบัตร</string>
+    <string name="DisplayTestL1a">ยอดการใช้งาน</string>
+    <string name="DisplayTestL1b">99.99</string>
+    <string name="DisplayTestL2a">มูลค่าคงเหลือ</string>
+    <string name="DisplayTestL2b">9999.99</string>
+
+    <!-- Service -->
+    <string name="TerminalIP">Terminal IP</string>
+    <string name="Language">ภาษา</string>
+    <string name="SIP">IP Address เครื่อง WF-Service</string>
+    <string name="SPort">TCP/IP Port</string>
+    <string name="SPassword">อักษรเข้ารหัสการรับ-ส่งข้อมูล</string>
+    <string name="SPriceMode">กรณีร้านค้าใช้โหมดราคาแบบ ราคาด่วน,ราคาเมนู ไม่ต้องแสดงรายการราคา(จอแสดงผลร้านค้า)</string>
+    <string name="SIncDPMode">แสดงยอดเงินคงเหลือแบบหักเงินมัดจำแล้ว</string>
+    <string name="SFLoftMode">กรณี Food loft ให้แสดงยอดใช้จ่ายรวม</string>
+
+    <!-- Main -->
+    <string name="OK">ตกลง</string>
+    <string name="Submit">ยืนยัน</string>
+    <string name="Cancel">ยกเลิก</string>
+    <string name="Print">พิมพ์</string>
+    <string name="ThaiMenu">ไทย</string>
+    <string name="EngMenu">English</string>
+    <string name="ShopCard">บัตรประจำร้านค้า</string>
+    <string name="CardNo">หมายเลขบัตร</string>
+
+    <!-- Menu -->
+    <string name="LogOnMenu">เข้าสู่ระบบ</string>
+    <string name="ServiceMenu">ตั้งค่า Service</string>
+
+    <!-- Terminal -->
+    <string name="TBCancel">ยกเลิก\nรายการ</string>
+    <string name="TBPrintSlip">พิมพ์ใบสลิป</string>
+    <string name="TBPrintSum">พิมพ์สรุป\nยอดขาย</string>
+    <string name="TBCheckBal">เช็คมูลค่า\nบัตร</string>
+    <string name="TBSetUp">ตั้งค่า Terminal</string>
+    <string name="TBTransfer">โอนมูลค่า\nบัตร</string>
+    <string name="TBChangeShop">เปลี่ยน\nร้านค้า</string>
+    <string name="TBPaid">รับชำระ</string>
+    <string name="TBDelete">ลบรายการ</string>
+    <string name="TBClear">ล้างหน้าจอ</string>
+    <string name="TBLock">ล๊อคหน้าจอ</string>
+    <string name="TBLogOut">ออกจาก\nโปรแกรม</string>
+
+    <string name="TPCancel">ยกเลิกรายการ</string>
+    <string name="TPPrintSlip">พิมพ์ใบสลิป</string>
+    <string name="TPPrintSum">พิมพ์สรุปยอดขาย</string>
+    <string name="TPCheckBal">เช็คมูลค่าบัตร</string>
+    <string name="TPSetUp">ตั้งค่า Terminal</string>
+    <string name="TPTransfer">โอนมูลค่าบัตร</string>
+    <string name="TPChangeShop">เปลี่ยนร้านค้า</string>
+    <string name="TPPaid">รับชำระ</string>
+
+    <string name="PriceTypeH">ราคาด่วน</string>
+    <string name="PriceTypeM">ราคาเมนู</string>
+    <string name="PriceTypeE">ราคาป้อน</string>
+
+    <!-- Popup Message -->
+    <string name="PLogOut">คุณต้องการออกจากระบบ ใช่หรือไม่</string>
+    <string name="PClear">คุณต้องการล้างหน้าจอ ใช่หรือไม่</string>
+    <string name="PDelete">คุณต้องการลบรายการนี้ ใช่หรือไม่</string>
+    <string name="PCancel">คุณต้องการยกเลิกรายการขาย ใช่หรือไม่</string>
+    <string name="PCardNo">หมายเลขบัตร</string>
+    <string name="PCancelAmt">มูลค่าที่ยกเลิก</string>
+    <string name="PMissingConfig">ยังไม่ตั้งค่าเริ่มต้น กรุณาตั้งค่าเริ่มต้น</string>
+    <string name="PMissingData">กรุณาป้อนข้อมูลให้ครบถ้วน</string>
+
+    <!-- Popup Payment -->
+    <string name="CardType">ประเภทบัตร</string>
+    <string name="Customer">ชื่อลูกค้า/สมาชิก</string>
+    <string name="SubTotal">ยอดเงินก่อนหักโปรโมชั่น/ส่วนลด</string>
+    <string name="PromDiscount">ส่วนลดจากโปรโมชั่น</string>
+    <string name="Discount">ส่วนลดจากประเภทส่วนลด</string>
+    <string name="DueAmount">ยอดที่ต้องชำระ</string>
+    <string name="Total">มูลค่าก่อนรับชำระ</string>
+    <string name="RemainAmt">มูลค่าคงเหลือ</string>
+
+    <!-- Change Shop Popup -->
+    <string name="ShopNo">รหัสร้านค้า</string>
+    <string name="ShopName">ชื่อร้านค้า</string>
+    <string name="Shop">ร้านค้า</string>
+
+    <!-- Transfer Popup -->
+    <string name="CardNoFrom">หมายเลขบัตร - ต้นทาง</string>
+    <string name="CardRemainAmt">มูลค่าคงเหลือ - ปัจจุบัน</string>
+    <string name="CardNoTo">หมายเลขบัตร - ปลายทาง</string>
+    <string name="CardRemainTrans">มูลค่าคงเหลือ - หลังโอนมูลค่า</string>
+    <string name="AmtTransfer">มูลค่าการโอน</string>
+
+    <string name="DescTransfer">โอนย้ายมูลค่าบัตรที่ร้านค้า</string>
+
+    <!-- Lock Screen Popup -->
+    <string name="CardNotMatch">หมายเลขบัตรไม่สามารถปลดล๊อคร้านค้านี้ได้</string>
+
+    <!-- Change Shop Popup -->
+    <string name="NotValidData">กรุณากดตรวจสอบข้อมูลก่อนทำรายการ</string>
+
+    <!-- Check Balance Popup -->
+    <string name="CardExp">บัตรหมดอายุ</string>
+
+    <!-- Terminal Setup Popup -->
+    <string name="SetupTheme">เปลี่ยนชุดสี</string>
+    <string name="SetupShowData">ตั้งค่าแสดงผลรายการสินค้า</string>
+    <string name="SetupShop">ตั้งค่าโหมดราคา</string>
+    <string name="SetupMonitor">ตั้งค่าจอแสดงผลร้านค้า</string>
+    <string name="SetupPrinter">ตั้งค่าเครื่องพิมพ์</string>
+    <string name="SetupSound">ตั้งค่าเสียง</string>
+
+    <!-- Verify Popup -->
+    <string name="Verify">ยืนยันการใช้งาน</string>
+    <string name="NotGetVerify">ไม่พบสิทธิ์ของบัตร</string>
+
+    <!-- Sound Setup -->
+    <string name="Crystal">คริสตัล</string>
+    <string name="MouseClick">คลิกเมาส์</string>
+    <string name="Bell">กระดิ่ง</string>
+    <string name="Beep">แจ้งเตือน</string>
+    <string name="Swish">เหวี่ยง</string>
+
+    <!-- Theme Setup -->
+    <string name="Default">ค่าเริ่มต้น</string>
+    <string name="Blue">น้ำเงิน</string>
+    <string name="Red">แดง</string>
+    <string name="Green">เขียว</string>
+    <string name="Pink">ชมพู</string>
+    <string name="Black">ดำ</string>
+
+    <!-- ShowData Setup -->
+    <string name="S">S</string>
+    <string name="M">M</string>
+    <string name="L">L</string>
+    <string name="SizeData">ขนาดช่องรายการสินค้า</string>
+    <string name="DetailData">รายละเอียดการแสดงผลกรณีใช้งานราคาเมนู</string>
+    <string name="ItemCode">รหัสเมนู</string>
+    <string name="ItemDesc">รายละเอียด</string>
+    <string name="ItemImage">รูปเมนู</string>
+
+    <!-- Printer Setup -->
+    <string name="Enable">ใช้งาน</string>
+    <string name="Disable">ไม่ใช้งาน</string>
+    <string name="TestPrint">ทดสอบพิมพ์</string>
+
+    <!-- Monitor Setup -->
+    <string name="TestMonitor">ทดสอบจอแสดงผล</string>
+
+    <!-- Order List -->
+    <string name="OPrice">ราคา</string>
+    <string name="ODescription">รายการ</string>
+
+    <!-- Line Pay -->
+    <string name="linepay_confirm">Supported by Android/iPhone LINE versions 4.8.0or higher.</string>
+    <string name="linepay_install">Get it now</string>
+    <string name="linepay_cancel">cancel</string>
+
+    <!-- Print Summary -->
+    <string name="PrintSummary">.:: ใบแสดงรายการสรุปร้านค้า ณ ::.</string>
+    <string name="Date">วันที่</string>
+    <string name="Time">เวลา</string>
+    <string name="TotalSale">รวมยอดขาย</string>
+    <string name="TotalVoid">รวมยอดยกเลิก</string>
+    <string name="NetSale">รวมยอดสุทธิ</string>
+    <string name="NumCardsAtShop">จำนวนบัตรต้องคืน</string>
+    <string name="BillSale">จำนวนบิลขาย</string>
+    <string name="BillVoid">จำนวนบิลยกเลิก</string>
+    <string name="NetBill">จำนวนบิลสุทธิ</string>
+
+    <!-- Print Slip -->
+    <string name="PrintCurrentSlip">พิมพ์สลิปใบล่าสุด</string>
+    <string name="PrintCardTrans">พิมพ์สลิปรายการใช้บัตร</string>
+
+
+    <string name="MTotal">รวมทั้งหมด</string>
+    <string name="MCancelList">รายการยกเลิก</string>
+    <string name="MCancelTotal">มูลค่าที่ยกเลิก</string>
+    <string name="form">บัตรต้นทาง</string>
+    <string name="to">บัตรปลายทาง</string>
+
+    <string name="MDeleteList">ลบรายการ</string>
+    <string name="MDeleteTotal">มูลค่าที่ลบ</string>
+</resources>

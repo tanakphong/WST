@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Default" parent="Theme.AppCompat.Light">
+        <item name="android:textColorSecondary">@color/colorBlack</item>
+        <item name="colorAccent">@color/colorBlack</item>
+        <item name="colorControlActivated">@color/colorBlack</item>
+        <item name="colorPrimary">@color/colorGray</item>
+        <item name="colorPrimaryDark">@color/colorGray</item>
+
+        <item name="text">@style/CustomText</item>
+        <item name="edittext">@style/CustomEditText</item>
+
+        <item name="button">@style/CustomButton</item>
+        <item name="colorbg">@style/CustomBG</item>
+        <item name="subbg">@style/CustomMainBG</item>
+        <item name="checkbox">@style/CustomCheckBox</item>
+
+        <item name="tbutton">@style/CustomButtonTerminal</item>
+
+        <item name="mtext">@style/CustomMainText</item>
+
+        <item name="pbg">@style/CustomPopupTextBG</item>
+        <item name="ptextmain">@style/CustomDialogMain</item>
+
+        <item name="loading">@style/CustomDialogLoading</item>
+
+        <item name="colorbgData">@style/CustomBGData</item>
+        <item name="textData">@style/CustomTextData</item>
+    </style>
+
+    <style name="Theme.Black" parent="Theme.AppCompat.Light">
+        <item name="android:textColorSecondary">@color/colorBlack2</item>
+        <item name="colorAccent">@color/colorBlack2</item>
+        <item name="colorControlActivated">@color/colorBlack2</item>
+        <item name="colorPrimary">@color/colorBlack2</item>
+        <item name="colorPrimaryDark">@color/colorBlack2</item>
+
+        <item name="text">@style/CustomText_Black</item>
+        <item name="edittext">@style/CustomEditText_Black</item>
+
+        <item name="button">@style/CustomButton_Black</item>
+        <item name="colorbg">@style/CustomBG_Black</item>
+        <item name="subbg">@style/CustomMainBG_Black</item>
+        <item name="checkbox">@style/CustomCheckBox_Black</item>
+
+        <item name="tbutton">@style/CustomButtonTerminal_Black</item>
+
+        <item name="mtext">@style/CustomMainText_Black</item>
+
+        <item name="pbg">@style/CustomPopupTextBG_Black</item>
+        <item name="ptextmain">@style/CustomDialogMain_Black</item>
+
+        <item name="loading">@style/CustomDialogLoading_Black</item>
+
+        <item name="colorbgData">@style/CustomBGData_Black</item>
+        <item name="textData">@style/CustomTextData_Black</item>
+    </style>
+
+    <style name="Theme.Blue" parent="Theme.AppCompat.Light">
+        <item name="android:textColorSecondary">@color/colorBlue</item>
+        <item name="colorAccent">@color/colorBlue</item>
+        <item name="colorControlActivated">@color/colorBlue</item>
+        <item name="colorPrimary">@color/colorBlue</item>
+        <item name="colorPrimaryDark">@color/colorBlue</item>
+
+        <item name="text">@style/CustomText_Blue</item>
+        <item name="edittext">@style/CustomEditText_Blue</item>
+
+        <item name="button">@style/CustomButton_Blue</item>
+        <item name="colorbg">@style/CustomBG_Blue</item>
+        <item name="subbg">@style/CustomMainBG_Blue</item>
+        <item name="checkbox">@style/CustomCheckBox_Blue</item>
+
+        <item name="tbutton">@style/CustomButtonTerminal_Blue</item>
+
+        <item name="mtext">@style/CustomMainText_Blue</item>
+
+        <item name="pbg">@style/CustomPopupTextBG_Blue</item>
+        <item name="ptextmain">@style/CustomDialogMain_Blue</item>
+
+        <item name="loading">@style/CustomDialogLoading_Blue</item>
+
+        <item name="colorbgData">@style/CustomBGData_Blue</item>
+        <item name="textData">@style/CustomTextData_Blue</item>
+    </style>
+
+    <style name="Theme.Red" parent="Theme.AppCompat.Light">
+        <item name="android:textColorSecondary">@color/colorRed</item>
+        <item name="colorAccent">@color/colorRed</item>
+        <item name="colorControlActivated">@color/colorRed</item>
+        <item name="colorPrimary">@color/colorRed</item>
+        <item name="colorPrimaryDark">@color/colorRed</item>
+
+        <item name="text">@style/CustomText_Red</item>
+        <item name="edittext">@style/CustomEditText_Red</item>
+
+        <item name="button">@style/CustomButton_Red</item>
+        <item name="colorbg">@style/CustomBG_Red</item>
+        <item name="subbg">@style/CustomMainBG_Red</item>
+        <item name="checkbox">@style/CustomCheckBox_Red</item>
+
+        <item name="tbutton">@style/CustomButtonTerminal_Red</item>
+
+        <item name="mtext">@style/CustomMainText_Red</item>
+
+        <item name="pbg">@style/CustomPopupTextBG_Red</item>
+        <item name="ptextmain">@style/CustomDialogMain_Red</item>
+
+        <item name="loading">@style/CustomDialogLoading_Red</item>
+
+        <item name="colorbgData">@style/CustomBGData_Red</item>
+        <item name="textData">@style/CustomTextData_Red</item>
+    </style>
+
+    <style name="Theme.Green" parent="Theme.AppCompat.Light">
+        <item name="android:textColorSecondary">@color/colorGreen</item>
+        <item name="colorAccent">@color/colorGreen</item>
+        <item name="colorControlActivated">@color/colorGreen</item>
+        <item name="colorPrimary">@color/colorGreen</item>
+        <item name="colorPrimaryDark">@color/colorGreen</item>
+
+        <item name="text">@style/CustomText_Green</item>
+        <item name="edittext">@style/CustomEditText_Green</item>
+
+        <item name="button">@style/CustomButton_Green</item>
+        <item name="colorbg">@style/CustomBG_Green</item>
+        <item name="subbg">@style/CustomMainBG_Green</item>
+        <item name="checkbox">@style/CustomCheckBox_Green</item>
+
+        <item name="tbutton">@style/CustomButtonTerminal_Green</item>
+
+        <item name="mtext">@style/CustomMainText_Green</item>
+
+        <item name="pbg">@style/CustomPopupTextBG_Green</item>
+        <item name="ptextmain">@style/CustomDialogMain_Green</item>
+
+        <item name="loading">@style/CustomDialogLoading_Green</item>
+
+        <item name="colorbgData">@style/CustomBGData_Green</item>
+        <item name="textData">@style/CustomTextData_Green</item>
+    </style>
+
+    <style name="Theme.Pink" parent="Theme.AppCompat.Light">
+        <item name="android:textColorSecondary">@color/colorPink</item>
+        <item name="colorAccent">@color/colorPink</item>
+        <item name="colorControlActivated">@color/colorPink</item>
+        <item name="colorPrimary">@color/colorPink</item>
+        <item name="colorPrimaryDark">@color/colorPink</item>
+
+        <item name="text">@style/CustomText_Pink</item>
+        <item name="edittext">@style/CustomEditText_Pink</item>
+
+        <item name="button">@style/CustomButton_Pink</item>
+        <item name="colorbg">@style/CustomBG_Pink</item>
+        <item name="subbg">@style/CustomMainBG_Pink</item>
+        <item name="checkbox">@style/CustomCheckBox_Pink</item>
+
+        <item name="tbutton">@style/CustomButtonTerminal_Pink</item>
+
+        <item name="mtext">@style/CustomMainText_Pink</item>
+
+        <item name="pbg">@style/CustomPopupTextBG_Pink</item>
+        <item name="ptextmain">@style/CustomDialogMain_Pink</item>
+
+        <item name="loading">@style/CustomDialogLoading_Pink</item>
+
+        <item name="colorbgData">@style/CustomBGData_Pink</item>
+        <item name="textData">@style/CustomTextData_Pink</item>
+    </style>
+</resources>

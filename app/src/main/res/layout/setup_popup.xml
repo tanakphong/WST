@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="?colorbg"
+    tools:context="com.wf.demo.wfv30.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/MainText"
+                style="?ptextmain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/SpaceRow"
+                android:text="@string/TPSetUp" />
+
+            <Button
+                android:id="@+id/SetupPrinter"
+                style="?button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SetupPrinter" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/Space"
+                android:orientation="horizontal"></LinearLayout>
+
+            <Button
+                android:id="@+id/SetupMonitor"
+                style="?button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SetupMonitor" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/Space"
+                android:orientation="horizontal"></LinearLayout>
+
+            <Button
+                android:id="@+id/SetupShop"
+                style="?button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SetupShop" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/Space"
+                android:orientation="horizontal"></LinearLayout>
+
+            <Button
+                android:id="@+id/SetupTheme"
+                style="?button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SetupTheme" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/Space"
+                android:orientation="horizontal"></LinearLayout>
+
+            <Button
+                android:id="@+id/SetupShowData"
+                style="?button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SetupShowData" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/Space"
+                android:orientation="horizontal"></LinearLayout>
+
+            <Button
+                android:id="@+id/SetupSound"
+                style="?button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SetupSound" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/Space"
+                android:orientation="horizontal"></LinearLayout>
+
+            <Button
+                android:id="@+id/SetupService"
+                style="?button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ServiceMenu" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6" />
+
+                <Button
+                    android:id="@+id/Cancel"
+                    style="?button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/SpaceRow"
+                    android:layout_marginTop="@dimen/SpaceRow"
+                    android:layout_weight="0.2"
+                    android:text="@string/Cancel" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

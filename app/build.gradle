@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "com.wf.demo.wfv30"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "11.0." + versionCode + "_" + getTimestamp()
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            applicationVariants.all { variant ->
+//                renameAPK(variant, defaultConfig, 'release')
+//            }
+
+        }
+//        debug {
+//            applicationVariants.all { variant ->
+//                renameAPK(variant, defaultConfig, 'debug')
+//            }
+//        }
+    }
+}
+
+def getTimestamp() {
+    def date = new Date()
+    return date.format('yyyyMMddHHmm')
+}
+
+//def renameAPK(variant, defaultConfig, buildType) {
+////    variant.outputs.all { output ->
+////        def fileName = "WSTv1.0@" + defaultConfig.versionName + ".apk"
+////        output.outputFileName = fileName
+////    }
+//    variant.outputs.each { output ->
+//        def formattedDate = new Date().format('yyyyMMddHHmm')
+//
+//        def file = output.packageApplication.outputFile
+//        def fileName = "WSTv1.0@" + defaultConfig.versionName + ".apk"
+//        output.packageApplication.outputFile = new File(file.parent, fileName)
+//    }
+//}
+
+repositories {
+    maven { url "http://dl.bintray.com/pixplicity/maven" }
+    maven { url "https://oss.sonatype.org/content/repositories/ksoap2-android-releases/" }
+    jcenter()
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.pixplicity.easyprefs:library:1.9.0@aar'
+    implementation 'com.google.code.ksoap2-android:ksoap2-android:3.1.1'
+    implementation 'com.github.d-max:spots-dialog:0.4@aar'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation ('com.journeyapps:zxing-android-embedded:3.5.0'){
+        exclude group: 'com.android.support'
+    }
+}

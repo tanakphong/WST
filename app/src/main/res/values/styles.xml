@@ -1,0 +1,409 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="CustomBG" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+    <!-- Data List -->
+    <style name="CustomBGData" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorGray</item>
+    </style>
+    <style name="CustomTextData" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomMainBG" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+    <style name="CustomPopupTextBG" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+    <!-- Button -->
+    <style name="CustomButton" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorGray</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Text -->
+    <style name="CustomMainText" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomText" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomDialogMain" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CustomDialogLoading" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/colorBlack</item>
+    </style>
+    <!-- Edit Text -->
+    <style name="CustomEditText" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:background">@color/colorGray</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+    <style name="CustomCheckBox" parent="Theme.AppCompat.Light">
+        <item name="android:buttonTint" tools:ignore="NewApi">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColorSecondary">@color/colorBlack</item>
+    </style>
+    <style name="CustomButtonTerminal" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/colorGray</item>
+        <item name="android:layout_margin">@dimen/SpaceButton</item>
+    </style>
+
+    <!-- Black theme. -->
+    <style name="CustomBG_Black" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorGray2</item>
+    </style>
+    <!-- Data List -->
+    <style name="CustomBGData_Black" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorGray3</item>
+    </style>
+    <style name="CustomTextData_Black" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomMainBG_Black" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorGray2</item>
+    </style>
+    <style name="CustomPopupTextBG_Black" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorGray2</item>
+    </style>
+    <!-- Button -->
+    <style name="CustomButton_Black" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorGray3</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Text -->
+    <style name="CustomMainText_Black" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomText_Black" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorBlack2</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomDialogMain_Black" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:textColor">@color/colorBlack2</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CustomDialogLoading_Black" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/colorWhite</item>
+    </style>
+    <!-- Edit Text -->
+    <style name="CustomEditText_Black" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:background">@color/colorGray3</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+    <style name="CustomCheckBox_Black" parent="Theme.AppCompat.Light">
+        <item name="android:buttonTint" tools:ignore="NewApi">@color/colorBlack2</item>
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorBlack2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColorSecondary">@color/colorBlack2</item>
+    </style>
+    <style name="CustomButtonTerminal_Black" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/colorGray3</item>
+        <item name="android:layout_margin">@dimen/SpaceButton</item>
+    </style>
+
+    <!-- Blue theme. -->
+    <style name="CustomBG_Blue" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+    <!-- Data List -->
+    <style name="CustomBGData_Blue" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorBlue2</item>
+    </style>
+    <style name="CustomTextData_Blue" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomMainBG_Blue" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+    <style name="CustomPopupTextBG_Blue" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+    <!-- Button -->
+    <style name="CustomButton_Blue" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorBlue2</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Text -->
+    <style name="CustomMainText_Blue" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomText_Blue" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorBlue2</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomDialogMain_Blue" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:textColor">@color/colorBlue2</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CustomDialogLoading_Blue" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/colorWhite</item>
+    </style>
+    <!-- Edit Text -->
+    <style name="CustomEditText_Blue" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:background">@color/colorBlue3</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+    <style name="CustomCheckBox_Blue" parent="Theme.AppCompat.Light">
+        <item name="android:buttonTint" tools:ignore="NewApi">@color/colorBlue</item>
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColorSecondary">@color/colorBlue</item>
+    </style>
+    <style name="CustomButtonTerminal_Blue" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/colorBlue2</item>
+        <item name="android:layout_margin">@dimen/SpaceButton</item>
+    </style>
+
+    <!-- Red theme. -->
+    <style name="CustomBG_Red" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+    <!-- Data List -->
+    <style name="CustomBGData_Red" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorRed</item>
+    </style>
+    <style name="CustomTextData_Red" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomMainBG_Red" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+    <style name="CustomPopupTextBG_Red" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+    <!-- Button -->
+    <style name="CustomButton_Red" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorRed</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Text -->
+    <style name="CustomMainText_Red" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomText_Red" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorRed</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomDialogMain_Red" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:textColor">@color/colorRed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CustomDialogLoading_Red" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/colorWhite</item>
+    </style>
+    <!-- Edit Text -->
+    <style name="CustomEditText_Red" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:background">@color/colorOrange2</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+    <style name="CustomCheckBox_Red" parent="Theme.AppCompat.Light">
+        <item name="android:buttonTint" tools:ignore="NewApi">@color/colorRed</item>
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorRed</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColorSecondary">@color/colorRed</item>
+    </style>
+    <style name="CustomButtonTerminal_Red" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/colorRed</item>
+        <item name="android:layout_margin">@dimen/SpaceButton</item>
+    </style>
+
+    <!-- Green theme. -->
+    <style name="CustomBG_Green" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+    <!-- Data List -->
+    <style name="CustomBGData_Green" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorGreen</item>
+    </style>
+    <style name="CustomTextData_Green" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomMainBG_Green" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+    <style name="CustomPopupTextBG_Green" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+    <!-- Button -->
+    <style name="CustomButton_Green" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorGreen</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Text -->
+    <style name="CustomMainText_Green" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomText_Green" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorGreen</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomDialogMain_Green" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:textColor">@color/colorGreen</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CustomDialogLoading_Green" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/colorWhite</item>
+    </style>
+    <!-- Edit Text -->
+    <style name="CustomEditText_Green" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:background">@color/colorYellow</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+    <style name="CustomCheckBox_Green" parent="Theme.AppCompat.Light">
+        <item name="android:buttonTint" tools:ignore="NewApi">@color/colorGreen</item>
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorGreen</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColorSecondary">@color/colorGreen</item>
+    </style>
+    <style name="CustomButtonTerminal_Green" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/colorGreen</item>
+        <item name="android:layout_margin">@dimen/SpaceButton</item>
+    </style>
+
+    <!-- Pink theme. -->
+    <style name="CustomBG_Pink" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+    <!-- Data List -->
+    <style name="CustomBGData_Pink" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorPink</item>
+    </style>
+    <style name="CustomTextData_Pink" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorBrown</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomMainBG_Pink" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+    <style name="CustomPopupTextBG_Pink" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+    <!-- Button -->
+    <style name="CustomButton_Pink" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorPink</item>
+        <item name="android:textColor">@color/colorBrown</item>
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Text -->
+    <style name="CustomMainText_Pink" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:textColor">@color/colorBrown</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomText_Pink" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorBrown</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomDialogMain_Pink" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:textColor">@color/colorBrown</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CustomDialogLoading_Pink" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/colorWhite</item>
+    </style>
+    <!-- Edit Text -->
+    <style name="CustomEditText_Pink" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:background">@color/colorPink</item>
+        <item name="android:textColor">@color/colorBrown</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+    <style name="CustomCheckBox_Pink" parent="Theme.AppCompat.Light">
+        <item name="android:buttonTint" tools:ignore="NewApi">@color/colorPink</item>
+        <item name="android:textSize">@dimen/TextLine</item>
+        <item name="android:textColor">@color/colorBrown</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColorSecondary">@color/colorPink</item>
+    </style>
+    <style name="CustomButtonTerminal_Pink" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/colorBrown</item>
+        <item name="android:textSize">@dimen/MainText</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/colorPink</item>
+        <item name="android:layout_margin">@dimen/SpaceButton</item>
+    </style>
+</resources>
